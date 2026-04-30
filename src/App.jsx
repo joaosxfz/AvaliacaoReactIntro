@@ -8,6 +8,7 @@ import Ex02 from './pages/Ex02'
 function App() {
   return (
     <>
+    <Home />
       <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='/ex01' element={<Ex01 />} />

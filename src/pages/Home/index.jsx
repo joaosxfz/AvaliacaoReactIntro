@@ -9,7 +9,7 @@ function Home() {
                     <ul>
                         <li><Link to="/ex01"><button>Exercício 01</button></Link></li>
                         <li><Link to="/ex02"><button>Exercício 02</button></Link></li>
-                        <li><Link to="/home"><button>Home</button></Link></li>
+                        <li><Link to="/"><button>Home</button></Link></li>
                     </ul>
                 </div>
             </section>
