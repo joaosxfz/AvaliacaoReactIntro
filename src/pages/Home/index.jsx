@@ -7,8 +7,9 @@ function Home() {
                 <h2>Lista de Exercícios</h2>
                 <div>
                     <ul>
-                        <li><Link to="/Ex01"><button>Exercício 01</button></Link></li>
-                        <li><Link to="/Ex02"><button>Exercício 02</button></Link></li>
+                        <li><Link to="/ex01"><button>Exercício 01</button></Link></li>
+                        <li><Link to="/ex02"><button>Exercício 02</button></Link></li>
+                        <li><Link to="/home"><button>Home</button></Link></li>
                     </ul>
                 </div>
             </section>
