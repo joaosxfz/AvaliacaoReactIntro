@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Ex02() {
     const [numero, setNumero] = useState("Número")
@@ -12,19 +13,15 @@ function Ex02() {
 
     return (
         <>
+            <Link to="/"><button>Home</button></Link>
             <h2>Exercício 2</h2>
             <p>7. Peça um número e mostre: Seu antecessor Seu sucessor</p>
             <section>
                 <form onSubmit={handleSubmit}>
-
                     <label>Número</label>
-                    <input 
-                    type="number" 
-                    value={numero} 
-                    onChange={(event) => setNumero(event.target.value)} />
+                    <input type="number" value={numero} onChange={(event) => setNumero(event.target.value)} />
                     <button type="submit">Enviar</button>
                     <p>{resultado}</p>
-
                 </form>
             </section>
         </>

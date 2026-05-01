@@ -1,9 +1,8 @@
-
-import 'style.css'
+import './style.css'
 
 function Header() {
   return (
-    <Header>
+    <header>
     <p>Política Corporativa – Empresa Fictícia “TechNada S.A.”
 
       Horário de trabalho
@@ -27,7 +26,7 @@ function Header() {
       Você pode tirar… mas vai continuar pensando no trabalho mesmo assim.
       Promoções
       Baseadas em mérito, sorte e quem o chefe lembra o nome.</p>
-      </Header>
+      </header>
   )
 }
 
